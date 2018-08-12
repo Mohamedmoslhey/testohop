@@ -1,0 +1,20 @@
+/* You can add global styles to this file, and also import other style files */
+@import '~bootstrap/dist/css/bootstrap.css';
+@import '~font-awesome/css/font-awesome.css';
+
+
+
+
+body {padding-top : 80Px}
+
+.navbar-light .navbar-brand {
+    color: rgba(0, 123, 255, 0.5);
+}
+
+
+.list-group-item.active {
+    z-index: 2;
+    color: #fff;
+    background-color: rgba(0, 123, 255, 0.5);
+    border-color: rgba(0, 123, 255, 0.5);
+}
